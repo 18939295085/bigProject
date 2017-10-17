@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.rl {
+    float: right;
+}
+
+#content {
+    width: 65%;
+    margin: auto;
+}
+
+#menu {
+    position: fixed;
+    width: 17.6%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+    background: #ECECEC;
+}
+
+#menu a {
+    color: #333;
+    font-size: 15px;
+}
+
+#menu .active a {
+    color: #ED6C00;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+#menu li {
+    margin-left: 20%;
+    font-size: 16px;
+    color: #0A0A0A;
+}
+
+.con-mar {
+    margin-top: 40%;
+}
+
+.logo {
+    margin-top: 30%;
+}
+
+#dookbook > div {
+    float: right;
+    width: 73%;
+}
+
+.section {
+    height: 100%;
+    font-family: "Microsoft Yahei";
+    clear: both;
+}
+
+/*fullpage*/
+/*第一屏*/
+.container-banner {
+    width: 100%;
+    height: 100%;
+}
+
+/*第二屏*/
+.book {
+    height: 100%;
+    background: url(../image/bggezi.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+/*分类书籍*/
+.phyletic {
+    text-align: center;
+}
+
+.phyletic ul {
+    width: 100%;
+    height: 20%;
+    margin-top: 8%;
+}
+
+.phyletic ul li img {
+    width: 100%;
+}
+
+.phyletic .swi-dis li {
+    display: none;
+}
+
+/*展示书籍*/
+.bigbooks {
+    width: 100%;
+    margin-top: 15%;
+    height: 80%;
+    margin-left: 2%;
+}
+
+.bigbooks ul li img {
+    width: 100%;
+}
+
+/*第三屏*/
+.author {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 25%;
+}
+
+/*时代作家*/
+.author ul li {
+    float: left;
+    width: 19%;
+    margin-left: 1%;
+}
+
+.author ul li a {
+    font-size: 14px;
+    color: #0D0D0D;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.author ul li a:hover {
+    border: 1px solid #ED6C00;
+
+}
+
+.author ul li a p img {
+    width: 100%;
+}
+
+/*第四屏*/
+.super {
+    height: 100%;
+    background: url(../image/bggezi.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+/*超级IP*/
+.super-mar {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.super-mar ul li {
+    width: 50%;
+    height: 30%;
+    float: left;
+}
+
+.super-mar ul li img {
+    width: 100%;
+}
+
+/*第五屏*/
+.news {
+    height: 100%;
+}
+
+/*新闻中心*/
+.news-cont {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.news-left {
+    float: left;
+    width: 48%;
+    height: 100%;
+}
+
+.news-right {
+    float: right;
+    width: 48%;
+    height: 100%;
+}
+
+.news-title {
+    width: 100%;
+    height: 5%;
+    line-height: 45px;
+    background: #F4F4F4;
+    text-indent: 1rem;
+}
+
+/*公司新闻*/
+.news-content {
+    width: 100%;
+    height: 60%;
+    background: #f4f4f4;
+    margin-top: 3%;
+    overflow: auto;
+}
+
+.news-introduce {
+    width: 95%;
+    height: 35%;
+    margin: auto;
+    margin-top: 3%;
+    background: #ffffff;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.news-content::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.news-content::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f4f4f4;
+}
+
+.news-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    background-image: -webkit-gradient(linear,
+    40% 0%,
+    75% 84%,
+    from(#ED6C00),
+    to(#ED6C00),
+    color-stop(.6, #ED6C00))
+}
+
+/*公司新闻内容部分*/
+.int-mar {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+.int-title {
+    font-size: 13px;
+    font-weight: 900;
+    width: 100%;
+    height: 10%;
+    padding-top: 2%;
+}
+
+.int-img {
+    width: 60%;
+    height: 75%;
+    margin: auto;
+    display: table;
+}
+
+.int-img span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.int-bottom {
+    font-size: 10px;
+    color: #858485;
+}
+
+.int-bottom img {
+    width: 70%;
+}
+
+/*图书新闻*/
+
+/*公司简介*/
+.brief {
+    height: 100%;
+    background: url(../image/bggezi.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+/*简介下的内容*/
+.brief-content {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 18%;
+}
+
+.brief-title {
+    width: 40%;
+    height: 6%;
+    background: #ffffff;
+    line-height: 40px;
+    text-indent: 1rem;
+}
+
+.brief-container {
+    width: 100%;
+    background: #fff;
+    margin-top: 10%;
+    overflow: auto;
+    padding: 6%;
+    line-height: 25px;
+}
+
+.brief-cont span {
+    font-size: 14px;
+    color: #A6A6A6;
+    text-indent: 2rem;
+    display: block;
+}
+
+.brief-img {
+    font-size: 10px;
+    margin-top: 5%;
+    color: #a6a6a6;
+}
+
+.brief-img span img {
+    width: 70%;
+}
+
+/*第七屏*/
+.adds {
+    height: 100%;
+}
+
+/*加入读客*/
+
+/*底部介绍*/
+.book-bottom {
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    background: #ED6C00;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
