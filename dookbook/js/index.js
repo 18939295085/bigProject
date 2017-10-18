@@ -9,11 +9,11 @@ $(function () {
         slidesPerView: 5,
         centeredSlides: true,
         loop: true,
-        autoplay: 5000,
+        autoplay: 3000,
         paginationClickable: true,
         spaceBetween: 30
     });
-    $('.phyletic').mouseenter(function () {
+    $('.phyletic,.bigbooks').mouseenter(function () {
         swiper.stopAutoplay()
     }).mouseleave(function(){
        swiper.startAutoplay()
