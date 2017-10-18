@@ -39,11 +39,11 @@ $(function () {
             } else {
                 $("#menu").hide();
             }
-            if (nextIndex == 7) {
+            /*if (nextIndex == 7) {
                 $.fn.fullpage.setAutoScrolling(false);
             } else {
                 $.fn.fullpage.setAutoScrolling(true);
-            }
+            }*/
         },
     });
     $('.phyletic .swi-dis li:first-child').css('display', 'block');
