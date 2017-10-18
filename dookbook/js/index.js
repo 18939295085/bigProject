@@ -23,7 +23,7 @@ $(function () {
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
         scrollingSpeed: 1000,
         // keyboardScrolling: false,
-        scrollBar: true,
+        // scrollBar: true,
         menu: '#menu',
         onLeave: function (index, nextIndex, direction) {
 //                console.log(nextIndex + "=----" + direction)
