@@ -366,19 +366,47 @@ a {
 .adds-content-left{
     width:47%;
     background: #f4f4f4;
-    padding: 1%;
+    padding: 2%;
+    line-height: 20px;
+    height:100%;
 }
 .adds-content-left ul{
     width:100%;
     background: #fff;
     padding: 3%;
 }
+.adds-content-left ul li .bef:before{
+    content: '●';
+    color: #000;
+    margin-right: 5px;
+    font-size: 16px;
+}
+hr{
+    border: 1px solid #F4F4F4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .adds-content-right{
     width:47%;
     background: #f4f4f4;
     padding: 2%;
+    line-height: 23px;
 }
-
+.adds-content-right ul{
+    width:100%;
+    background: #fff;
+    padding: 3%;
+}
+.adds-left-bottom{
+    overflow: auto;
+}
+.adds-left-bottom .rl img{
+    width:65%;
+}
+.adds-bottom{
+    margin-top: 15%;
+    margin-left: 2%;
+}
 
 
 .adds-bottom{
