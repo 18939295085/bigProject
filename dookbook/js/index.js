@@ -53,7 +53,7 @@ $(function () {
                 num = -1;
             } else {
                 $(el).children('li').hide();
-                $(els).children('li').eq(num).show();
+                $(el).children('li').eq(num).show();
             }
         }, 1000);
     });

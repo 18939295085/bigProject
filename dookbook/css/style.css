@@ -304,7 +304,7 @@ a {
     width: 40%;
     height: 6%;
     background: #ffffff;
-    line-height: 40px;
+    line-height: 3rem;
     text-indent: 1rem;
 }
 
@@ -340,15 +340,58 @@ a {
 }
 
 /*加入读客*/
+.adds-container{
+    width:90%;
+    margin: auto;
+    margin-top: 20%;
+}
+.adds-content{
+    width:100%;
+}
+.adds-title {
+    width: 40%;
+    height: 6%;
+    background: #f4f4f4;
+    line-height: 3rem;
+    text-indent: 1rem;
+}
+.adds-contenter{
+    width:100%;
+    height:50%;
+    font-size: 13px;
+    overflow: auto;
+    margin-top: 10%;
+    color: #5A5859;
+}
+.adds-content-left{
+    width:47%;
+    background: #f4f4f4;
+    padding: 1%;
+}
+.adds-content-left ul{
+    width:100%;
+    background: #fff;
+    padding: 3%;
+}
+.adds-content-right{
+    width:47%;
+    background: #f4f4f4;
+    padding: 2%;
+}
 
+
+
+.adds-bottom{
+    width:100%;
+}
 /*底部介绍*/
-.book-bottom {
+/*.book-bottom {
     width: 100%;
     height: 30%;
     margin: auto;
     background: #ED6C00;
 
-}
+}*/
 
 
 
