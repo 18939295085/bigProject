@@ -111,9 +111,11 @@ a {
     height: 80%;
     margin-left: 2%;
 }
-.bigbooks ul li{
+
+.bigbooks ul li {
     display: none;
 }
+
 .bigbooks ul li img {
     width: 95%;
 }
@@ -142,9 +144,9 @@ a {
     display: block;
 }
 
-.author ul li a:hover {
+.author ul li img:hover {
     border: 1px solid #ED6C00;
-
+    box-shadow:0px 0px 60px #ed6c00, 0px 0px 0px #ed6c00, 0px 0px 10px #ed6c00, 0px 0px 0px #ed6c00;
 }
 
 .author ul li a p img {
@@ -343,14 +345,16 @@ a {
 }
 
 /*加入读客*/
-.adds-container{
-    width:90%;
+.adds-container {
+    width: 90%;
     margin: auto;
     margin-top: 20%;
 }
-.adds-content{
-    width:100%;
+
+.adds-content {
+    width: 100%;
 }
+
 .adds-title {
     width: 40%;
     height: 6%;
@@ -358,63 +362,73 @@ a {
     line-height: 3rem;
     text-indent: 1rem;
 }
-.adds-contenter{
-    width:100%;
-    height:50%;
+
+.adds-contenter {
+    width: 100%;
+    height: 50%;
     font-size: 13px;
     overflow: auto;
     margin-top: 10%;
     color: #5A5859;
 }
-.adds-content-left{
-    width:47%;
+
+.adds-content-left {
+    width: 47%;
     background: #f4f4f4;
     padding: 2%;
     line-height: 20px;
-    height:100%;
+    height: 100%;
 }
-.adds-content-left ul{
-    width:100%;
+
+.adds-content-left ul {
+    width: 100%;
     background: #fff;
     padding: 3%;
 }
-.adds-content-left ul li .bef:before{
+
+.adds-content-left ul li .bef:before {
     content: '●';
     color: #000;
     margin-right: 5px;
     font-size: 16px;
 }
-hr{
+
+hr {
     border: 1px solid #F4F4F4;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.adds-content-right{
-    width:47%;
+
+.adds-content-right {
+    width: 47%;
     background: #f4f4f4;
     padding: 2%;
     line-height: 23px;
 }
-.adds-content-right ul{
-    width:100%;
+
+.adds-content-right ul {
+    width: 100%;
     background: #fff;
     padding: 3%;
 }
-.adds-left-bottom{
+
+.adds-left-bottom {
     overflow: auto;
 }
-.adds-left-bottom .rl img{
-    width:65%;
+
+.adds-left-bottom .rl img {
+    width: 65%;
 }
-.adds-bottom{
+
+.adds-bottom {
     margin-top: 15%;
     margin-left: 2%;
 }
 
-
-.adds-bottom{
-    width:100%;
+.adds-bottom {
+    width: 100%;
 }
+
 /*底部介绍*/
 /*.book-bottom {
     width: 100%;

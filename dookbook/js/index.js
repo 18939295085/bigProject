@@ -18,7 +18,7 @@ $(function () {
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
         scrollingSpeed: 1000,
         // keyboardScrolling: false,
-        // scrollBar: true,
+        scrollBar: true,
         menu: '#menu',
         onLeave: function (index, nextIndex, direction) {
 //                console.log(nextIndex + "=----" + direction)
@@ -34,11 +34,11 @@ $(function () {
             } else {
                 $("#menu").hide();
             }
-            /* if (nextIndex == 7) {
-             $.fn.fullpage.setAutoScrolling(false);
-             } else if (nextIndex < 7) {
-             $.fn.fullpage.setAutoScrolling(true);
-             }*/
+            if (nextIndex == 7) {
+                $.fn.fullpage.setAutoScrolling(false);
+            } else {
+                $.fn.fullpage.setAutoScrolling(true);
+            }
         },
     });
     $('.phyletic .swi-dis li:first-child').css('display', 'block');
@@ -56,7 +56,7 @@ $(function () {
                 $(el).children('li').hide();
                 $(el).children('li').eq(num).show();
             }
-        },2000);
+        }, 2000);
     });
     $('.swiper-slide').mouseleave(function () {
         clearInterval(clearTime);
