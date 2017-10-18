@@ -9,9 +9,14 @@ $(function () {
         slidesPerView: 5,
         centeredSlides: true,
         loop: true,
-        // autoplay: 3000,
+        autoplay: 5000,
         paginationClickable: true,
         spaceBetween: 30
+    });
+    $('.phyletic').mouseenter(function () {
+        swiper.stopAutoplay()
+    }).mouseleave(function(){
+       swiper.startAutoplay()
     });
     /*fullpage*/
     $('#dookbook').fullpage({
@@ -45,16 +50,23 @@ $(function () {
     $('.bigbooks ul li:last-child').css('display', 'block');
     var clearTime = null;
     var num = 0;
+    var sum = 0;
     $('.swiper-slide').mouseenter(function () {
         var el = $(this).children('.swi-dis');
         var els = el.children('li').length;
+        var bl = $('.bigbooks').children('ul');
+        var bls = bl.children('li').length;
         clearTime = setInterval(function () {
             num++;
-            if (num == els) {
+            sum++;
+            if (num == els || sum == bls) {
                 num = -1;
+                sum = -1;
             } else {
                 $(el).children('li').hide();
                 $(el).children('li').eq(num).show();
+                $(bl).children('li').hide();
+                $(bl).children('li').eq(sum).show();
             }
         }, 2000);
     });
