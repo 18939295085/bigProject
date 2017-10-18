@@ -111,9 +111,11 @@ a {
     height: 80%;
     margin-left: 2%;
 }
-
+.bigbooks ul li{
+    display: none;
+}
 .bigbooks ul li img {
-    width: 100%;
+    width: 95%;
 }
 
 /*第三屏*/
@@ -129,6 +131,7 @@ a {
     float: left;
     width: 19%;
     margin-left: 1%;
+    margin-bottom: 10%;
 }
 
 .author ul li a {
