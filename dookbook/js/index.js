@@ -42,6 +42,7 @@ $(function () {
         },
     });
     $('.phyletic .swi-dis li:first-child').css('display', 'block');
+    $('.bigbooks ul li:last-child').css('display', 'block');
     var clearTime = null;
     var num = 0;
     $('.swiper-slide').mouseenter(function () {
@@ -55,7 +56,7 @@ $(function () {
                 $(el).children('li').hide();
                 $(el).children('li').eq(num).show();
             }
-        }, 1000);
+        },2000);
     });
     $('.swiper-slide').mouseleave(function () {
         clearInterval(clearTime);
