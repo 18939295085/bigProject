@@ -13,6 +13,14 @@ $(function () {
         paginationClickable: true,
         spaceBetween: 30
     });
+<<<<<<< HEAD
+=======
+    $('.phyletic,.bigbooks').mouseenter(function () {
+        swiper.stopAutoplay()
+    }).mouseleave(function(){
+       swiper.startAutoplay()
+    });
+>>>>>>> e379f19d4c1ca65f1d2bb71a84b5a7c32cdbab7a
     /*fullpage*/
     $('#dookbook').fullpage({
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
@@ -34,6 +42,7 @@ $(function () {
             } else {
                 $("#menu").hide();
             }
+<<<<<<< HEAD
         }
     });
     $('#menu>li>ul').css('display','none');
@@ -52,6 +61,16 @@ $(function () {
 
 
    /* $('.phyletic .swi-dis li:first-child').css('display', 'block');
+=======
+            /*if (nextIndex == 7) {
+                $.fn.fullpage.setAutoScrolling(false);
+            } else {
+                $.fn.fullpage.setAutoScrolling(true);
+            }*/
+        },
+    });
+    $('.phyletic .swi-dis li:first-child').css('display', 'block');
+>>>>>>> e379f19d4c1ca65f1d2bb71a84b5a7c32cdbab7a
     $('.bigbooks ul li:last-child').css('display', 'block');
     var clearTime = null;
     var num = 0;
@@ -77,5 +96,9 @@ $(function () {
     });
     $('.swiper-slide').mouseleave(function () {
         clearInterval(clearTime);
+<<<<<<< HEAD
     });*/
+=======
+    });
+>>>>>>> e379f19d4c1ca65f1d2bb71a84b5a7c32cdbab7a
 });
