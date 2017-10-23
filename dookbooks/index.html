@@ -14,10 +14,10 @@
 <div id="content">
     <ul id="menu">
         <li class="logo"><img src="image/logo.png" alt=""></li>
-        <li data-menuanchor="page1" class="active con-mar"><a href="#page1">首页</a></li>
+        <li data-menuanchor="page1" class="con-mar"><a href="#page1">首页</a></li>
         <li data-menuanchor="page2"><a href="#page2">经典好书</a>
             <ul>
-                <li>外国文学</li>
+                <li class="active">外国文学</li>
                 <li>财经</li>
                 <li>青春浪漫</li>
                 <li>历史</li>
@@ -26,8 +26,18 @@
             </ul>
         </li>
         <li data-menuanchor="page3"><a href="#page3">时代作家</a></li>
-        <li data-menuanchor="page4"><a href="#page4">超级IP</a></li>
-        <li data-menuanchor="page5"><a href="#page5">新闻中心</a></li>
+        <li data-menuanchor="page4"><a href="#page4">超级IP</a>
+            <ul>
+                <li>书单来了</li>
+                <li>影单来了</li>
+            </ul>
+        </li>
+        <li data-menuanchor="page5"><a href="#page5">新闻中心</a>
+            <ul>
+                <li>公司新闻</li>
+                <li>图书新闻</li>
+            </ul>
+        </li>
         <li data-menuanchor="page6"><a href="#page6">关于读客</a></li>
         <li data-menuanchor="page7"><a href="#page7">加入读客</a></li>
     </ul>
@@ -46,139 +56,264 @@
             <div class="container-banner">
                 <!--分类书籍-->
                 <div style="width: 94%" class="book fl">
-                    <div class="swiper-container phyletic">
-                        <ul class="swiper-wrapper">
-                            <li class="swiper-slide">
-                                <ul class="swi-dis">
-                                    <li class="dis-lis">
-                                        <img src="image/books/tongshu.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/qingchun.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/lishi.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/waiguo.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/wennuan.png" alt="">
-                                    </li>
-                                </ul>
-                                <p>外国文学</p>
-                            </li>
-                            <li class="swiper-slide">
-                                <ul class="swi-dis">
-                                    <li class="dis-lis">
-                                        <img src="image/books/waiguo.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/qingchun.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/lishi.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/tongshu.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/wennuan.png" alt="">
-                                    </li>
-                                </ul>
-                                <p>财经</p>
-                            </li>
-                            <li class="swiper-slide">
-                                <ul class="swi-dis">
-                                    <li class="dis-lis">
-                                        <img src="image/books/wennuan.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/qingchun.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/lishi.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/tongshu.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/waiguo.png" alt="">
-                                    </li>
-                                </ul>
-                                <p>青春浪漫</p>
-                            </li>
-                            <li class="swiper-slide">
-                                <ul class="swi-dis">
-                                    <li class="dis-lis">
-                                        <img src="image/books/tongshu.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/qingchun.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/lishi.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/waiguo.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/wennuan.png" alt="">
-                                    </li>
-                                </ul>
-                                <p>童书</p>
-                            </li>
-                            <li class="swiper-slide">
-                                <ul class="swi-dis">
-                                    <li class="dis-lis">
-                                        <img src="image/books/lishi.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/qingchun.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/waiguo.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/tongshu.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/wennuan.png" alt="">
-                                    </li>
-                                </ul>
-                                <p>历史</p>
-                            </li>
-                            <li class="swiper-slide">
-                                <ul class="swi-dis">
-                                    <li class="dis-lis">
-                                        <img src="image/books/qingchun.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/waiguo.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/lishi.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/tongshu.png" alt="">
-                                    </li>
-                                    <li class="dis-lis">
-                                        <img src="image/books/wennuan.png" alt="">
-                                    </li>
-                                </ul>
-                                <p>原创文学</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="bigbooks">
-                        <ul>
-                            <li><img src="image/books/bigbooks/lianqing.png" alt=""></li>
-                            <li><img src="image/books/bigbooks/weiwei.png" alt=""></li>
-                            <li><img src="image/books/bigbooks/sichou.png" alt=""></li>
-                            <li><img src="image/books/bigbooks/cangdi.png" alt=""></li>
-                            <li><img src="image/books/bigbooks/diexing.png" alt=""></li>
-                            <li><img src="image/books/bigbooks/lingdao.png" alt=""></li>
-                        </ul>
+                    <div class="phyletic">
+                        <!--图书详情-->
+                        <div class="phy-show">
+                            <div class="show-title">
+                                <img src="image/jiantou.png" alt="">
+                            </div>
+                            <div class="show-left fl">
+                                <img src="image/books/qingchun.png" alt="">
+                            </div>
+                            <div class="show-right rl">
+                                <div class="show-right-h">
+                                    <h2>《恋情的终结》</h2>
+                                    <h3>
+                                        21次诺贝尔文学奖提名的传奇大师 <br>
+                                        格雷厄姆·格林备受推崇的代表作，也是极具自传性质的小说 <br>
+                                        马尔克斯、福克纳推崇备至的大师级作家
+                                    </h3>
+                                </div>
+                                <div class="show-cont">
+                                    <p>“我是你的忠实粉丝，格林先生。”</p>
+                                    <p>——马尔克斯</p>
+                                </div>
+                                <div class="show-lis">
+                                    <ul>
+                                        <li></li>
+                                        <li>入选2015年《卫报》历史百大英语小说</li>
+                                        <li>2015年BBC历史百大英国小说</li>
+                                        <li>2014年英国《每日电讯报》有史以来伟大的爱情小说</li>
+                                        <li>四次改编成电影、歌剧，1999年版由拉尔夫·费因斯和朱利安·摩尔主演或奥斯卡、金球奖、英国电影学院奖数十项提名。</li>
+                                        <li>2012年，科林·菲尔斯还倾情献声录制成有声读物。</li>
+                                        <p>这本书里有狂热的爱、狂热的恨、狂热的猜疑、狂热的嫉妒、狂热的信仰有爱情中所有狂热的情感。</p>
+                                    </ul>
+                                    <h1>关于爱情，我又想起了你……</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <!--外国文学-->
+                        <div style="display: none" class="phy-waiguo active">
+                            <ul>
+                                <li>
+                                    <p><img src="image/books/daoshang.png" alt=""></p>
+                                    <p>银河帝国</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/daoshang.png" alt=""></p>
+                                    <p>无声告白</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/tongshu.png" alt=""></p>
+                                    <p>恋情的终结</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>领导力21法则</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wennuan.png" alt=""></p>
+                                    <p>巨人的陨落</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>岛上书店</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>教父</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>好妈妈胜过好老师</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--财经-->
+                        <div class="phy-waiguo">
+                            <ul>
+                                <li>
+                                    <p><img src="image/books/jiaofu.png" alt=""></p>
+                                    <p>银河帝国</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/qingchun.png" alt=""></p>
+                                    <p>无声告白</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/tongshu.png" alt=""></p>
+                                    <p>恋情的终结</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>领导力21法则</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wennuan.png" alt=""></p>
+                                    <p>巨人的陨落</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>岛上书店</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>教父</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>好妈妈胜过好老师</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--青春浪漫-->
+                        <div class="phy-waiguo">
+                            <ul>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>银河帝国</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>无声告白</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>恋情的终结</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/tongshu.png" alt=""></p>
+                                    <p>领导力21法则</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wennuan.png" alt=""></p>
+                                    <p>巨人的陨落</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>岛上书店</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>教父</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>好妈妈胜过好老师</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--童书-->
+                        <div class="phy-waiguo">
+                            <ul>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>银河帝国</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>无声告白</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>恋情的终结</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yinhe.png" alt=""></p>
+                                    <p>领导力21法则</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wennuan.png" alt=""></p>
+                                    <p>巨人的陨落</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>岛上书店</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>教父</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>好妈妈胜过好老师</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--历史-->
+                        <div class="phy-waiguo">
+                            <ul>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>银河帝国</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>无声告白</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>恋情的终结</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>领导力21法则</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wennuan.png" alt=""></p>
+                                    <p>巨人的陨落</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>岛上书店</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>教父</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>好妈妈胜过好老师</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--原创文学-->
+                        <div class="phy-waiguo">
+                            <ul>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>银河帝国</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>无声告白</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>恋情的终结</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>领导力21法则</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wennuan.png" alt=""></p>
+                                    <p>巨人的陨落</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/wusheng.png" alt=""></p>
+                                    <p>岛上书店</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/waiguo.png" alt=""></p>
+                                    <p>教父</p>
+                                </li>
+                                <li>
+                                    <p><img src="image/books/yuanchuang.png" alt=""></p>
+                                    <p>好妈妈胜过好老师</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div style="width: 6%" class="rl">
@@ -277,7 +412,7 @@
                     <div class="super-mar">
                         <ul>
                             <li class="super-bookgog">
-                                    <img src="image/bookdog.png" alt="">
+                                <img src="image/bookdog.png" alt="">
                             </li>
                             <li class="super-title">
                                 <div class="super-title-top">
@@ -590,7 +725,7 @@
     </div>
 </div>
 </body>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.fullPage.js"></script>
 <script src="js/swiper.min.js"></script>
 <script src="js/index.js"></script>

@@ -13,11 +13,6 @@ $(function () {
         paginationClickable: true,
         spaceBetween: 30
     });
-    $('.phyletic,.bigbooks').mouseenter(function () {
-        swiper.stopAutoplay()
-    }).mouseleave(function () {
-        swiper.startAutoplay()
-    });
     /*fullpage*/
     $('#dookbook').fullpage({
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
@@ -39,14 +34,24 @@ $(function () {
             } else {
                 $("#menu").hide();
             }
-            /*if (nextIndex == 7) {
-             $.fn.fullpage.setAutoScrolling(false);
-             } else {
-             $.fn.fullpage.setAutoScrolling(true);
-             }*/
-        },
+        }
     });
-    $('.phyletic .swi-dis li:first-child').css('display', 'block');
+    $('#menu>li>ul').css('display','none');
+    $('#menu li a').on('click',function(){
+        $(this).next('ul').show();
+        $(this).parent('li').siblings().find('ul').hide();
+    });
+    $('#menu li ul li').on('click',function(){
+        $(this).addClass('active');
+        $(this).siblings().removeClass('active');
+        var ind = $(this).index();
+        $('.phyletic').find('.phy-waiguo').eq(ind).addClass('active').siblings().removeClass('active')
+    });
+
+
+
+
+   /* $('.phyletic .swi-dis li:first-child').css('display', 'block');
     $('.bigbooks ul li:last-child').css('display', 'block');
     var clearTime = null;
     var num = 0;
@@ -72,5 +77,5 @@ $(function () {
     });
     $('.swiper-slide').mouseleave(function () {
         clearInterval(clearTime);
-    });
+    });*/
 });
