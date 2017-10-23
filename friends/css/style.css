@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.rl {
+    float: right;
+}
+
+body {
+    background: #FD6900;
+}
+
+/*首页*/
+/*容器*/
+.container {
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    background: #fff;
+    margin-top: -2.6px;
+}
+
+.content {
+    background: url("../image/dianbg.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.cont-title {
+    text-align: center;
+    width: 100%;
+    padding-top: 0.2rem;
+}
+
+.cont-title img {
+    width: 25%;
+}
+
+.cont-font {
+    width: 90%;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+
+.cont-font img {
+    width: 100%;
+}
+
+.cont-kuang {
+    width: 80%;
+    margin: auto;
+    margin-top: 0.3rem;
+}
+
+.cont-kuang img {
+    width: 100%;
+}
+
+.cont-ren {
+    width: 100%;
+    text-align: center;
+}
+
+.cont-ren img {
+    width: 70%;
+}
+
+.cont-btn {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+.cont-btn a {
+    width: 4rem;
+    height: 1.2rem;
+    margin-bottom: 0.4rem;
+    background: #FD6900;
+    display: block;
+    line-height: 1.2rem;
+    font-size: 0.5rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+/*答题页面*/
+.ans-container {
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    background: #fff;
+    margin-top: -2.6px;
+}
+
+.ans-title {
+    width: 90%;
+    margin: auto;
+    padding-top: 0.2rem;
+}
+
+.ans-title img {
+    width: 100%;
+}
+
+.ans-content {
+    width: 90%;
+    height: 5.8rem;
+    margin: auto;
+    background: url("../image/guangkuang.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.ans-bg{
+    width:90%;
+    height: 4rem;
+    margin: auto;
+}
+.ans-bg h2{
+    font-weight: 900;
+    line-height: 0.8rem;
+    padding-top: 0.8rem;
+}
+.ans-click{
+    width:90%;
+    margin-top: 0.4rem;
+}
+.ans-click img{
+    width:40%;
+    margin-left: 10%;
+}
+.ans-bottom {
+    width: 90%;
+    margin: auto;
+}
+
+.ans-bottom img {
+    width: 100%;
+}
+
+/*查看报告页*/
+.report {
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    margin-top: -2.6px;
+}
+
+.report-content {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.report-bg {
+    width: 90%;
+    height: 10.9rem;
+    margin: auto;
+    background: url("../image/baogao.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: relative;
+}
+
+.rep-font {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 7rem;
+}
+
+.rep-font img {
+    width: 35%;
+}
+
+/*结果页*/
+.body-bg{
+    position: absolute;
+    display: none;
+    top:0;
+    left:0;
+}
+.body-bg img{
+    width:100%;
+    height:100%;
+}
+
+.fru-container {
+    width: 95%;
+    margin: auto;
+    height: 100%;
+    background: #fff;
+    margin-top: -2.6px;
+}
+
+.fru-bg {
+    width: 90%;
+    margin: auto;
+    height: 7.5rem;
+    background: url("../image/baogaokuang.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: relative;
+}
+
+.massage {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 3.5rem;
+    left: 0.5rem;
+}
+
+.title-img {
+    width: 65%;
+    overflow: auto;
+    line-height: 0.9rem;
+}
+
+.title-img img {
+    width: 100%;
+    border: 2px solid #FD6900;
+}
+.title-pipei{
+    width:95%;
+    margin-top: 0.2rem;
+    font-size: 13px;
+}
+.fru-font{
+    font-size: 18px;
+    margin-left: 0.2rem;
+    font-weight: 900;
+}
+.fru-admin{
+    font-weight: 900;
+}
+.fru-title-num{
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 0.2rem;
+    color: #FD6900;
+}
+.mas-mar {
+    margin-top: 0.1rem;
+    width: 77%;
+    overflow: auto;
+    line-height: 0.7rem;
+}
+
+.mas-title {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.mas-cont {
+    font-size: 16px;
+}
+
+.fru-btn {
+    width: 90%;
+    margin: auto;
+}
+
+.fru-btn p {
+    width: 100%;
+    text-align: center;
+}
+
+.fru-btn img {
+    width: 45%;
+}
+
+.fru-bottom {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background: #FECBA6;
+    padding: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.fru-bottom img {
+    width: 100%;
+}
+/*好友分析页*/
+.mat-mar{
+    padding-bottom: 0.2rem;
+}
+.match-clear{
+    overflow: auto;
+}
+.match-bg{
+    width:100%;
+}
+.mat-friend{
+    width:90%;
+    margin: auto;
+    height:auto;
+    background: url("../image/bgdian.png") no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.mat-title{
+    width:100%;
+    height: 0.5rem;
+    color: #FFFEFD;
+    margin-top: 0.2rem;
+    background: #FD6900;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.mat-continer{
+    width:100%;
+    height: auto;
+    border: 3px solid #FD6900;
+    padding: 0.2rem;
+    overflow: auto;
+}
+.mat-continer ul li{
+    width:100%;
+    overflow: auto;
+    margin-top: 0.2rem;
+}
+.mat-continer ul li .mat-title-img{
+    width:20%;
+}
+.mat-continer ul li .mat-title-img img{
+    border: 2px solid #FD6900;
+}
+.mat-continer ul li .mat-title-admin{
+    width:60%;
+    line-height: 0.6rem;
+    margin-left: 0.1rem;
+}
+.mat-continer ul li .mat-title-admin p:first-child{
+    font-weight: 900;
+    font-size: 14px;
+}
+.mat-continer ul li .mat-title-num{
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 1rem;
+    color: #FD6900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
