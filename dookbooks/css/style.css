@@ -52,7 +52,6 @@ a {
     color: #0A0A0A;
 }
 
-<<<<<<< HEAD
 #menu li ul .active {
     font-weight: 900;
     color: #000;
@@ -64,8 +63,6 @@ a {
     cursor: pointer;
 }
 
-=======
->>>>>>> e379f19d4c1ca65f1d2bb71a84b5a7c32cdbab7a
 .con-mar {
     margin-top: 40%;
 }
@@ -94,47 +91,47 @@ a {
 
 /*第二屏*/
 .book {
-<<<<<<< HEAD
     background: #F4F4F4;
     height: 100%;
-=======
->>>>>>> e379f19d4c1ca65f1d2bb71a84b5a7c32cdbab7a
 }
 
 /*分类书籍*/
 .phyletic {
-<<<<<<< HEAD
     width: 100%;
 }
 
 /*图书详情*/
-.phy-show{
-    width:90%;
+.phy-show {
+    width: 90%;
     margin: auto;
     margin-top: 150px;
 }
 
 .show-title img {
-    width:10%;
-}
-.show-left{
-    width:20%;
-    height:100%;
-}
-.show-left img{
-    width:100%;
+    width: 10%;
 }
 
-.show-right{
-    width:80%;
-    height:100%;
+.show-left {
+    width: 20%;
+    height: 100%;
 }
+
+.show-left img {
+    width: 100%;
+}
+
+.show-right {
+    width: 80%;
+    height: 100%;
+}
+
 /*外国文学*/
 
 .phyletic .phy-waiguo {
     display: none;
 }
-.book .phyletic .active{
+
+.book .phyletic .active {
     display: block;
 }
 
@@ -163,11 +160,6 @@ a {
 .phyletic .phy-waiguo ul li img {
     width: 100%;
     cursor: pointer;
-}
-
-
-=======
-    text-align: center;
 }
 
 .phyletic ul {
@@ -200,8 +192,7 @@ a {
     width: 95%;
 }
 
->>>>>>> e379f19d4c1ca65f1d2bb71a84b5a7c32cdbab7a
-/*第三屏*/
+    /*第三屏*/
 .author {
     width: 100%;
     height: 100%;
